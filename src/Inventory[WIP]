@@ -1,0 +1,8 @@
+inventory = {
+  'gold' : 500,
+  'pouch' : ['flint', 'twine', 'gemstone'], # Assigned a new list to 'pouch' key
+  'backpack' : ['xylophone','dagger', 'bedroll','bread loaf']
+}
+for value in inventory['backpack'].items():
+  print "In your backpack you have a " +str(inventory['backpack'][2]) 
+#print "In your backpack you have a " + str(inventory['backpack'][0]) + ", a " + str(inventory['backpack'][1]) + ", a " + str(inventory['backpack'][2]) + ", and a " + str(inventory['backpack'][3])
